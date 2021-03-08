@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuan Le</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      $(document).ready(function () {
+        $("#home").load("./public/pages/home.html");
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        id="bar_button"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="navbar-collapse collapse w-100 order-3 dual-collapse2"
+        id="navbarSupportedContent"
+      >
+        <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link hover select" id="Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" id="">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" id="">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" id="">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover" id="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home_style" id="home"></div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "bootcamp": [
+    {
+      "title": "Browser Based Technologies",
+      "skill": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Responsive Design",
+        "Bootstrap",
+        "Handlebars",
+        "Local Storage, Session Storage, IndexedDB",
+        "React.js"
+      ]
+    },
+    {
+      "title": "Deployment/Command-Line Fundamentals",
+      "skill": ["Heroku", "Git", "Github Pages"]
+    },
+    {
+      "title": "API Interaction",
+      "skill": ["API", "JSON", "AJAX"]
+    },
+    {
+      "title": "Databases",
+      "skill": ["MySQL", "MongoDB"]
+    },
+    {
+      "title": "Server Side Development",
+      "skill": [
+        "Node.js",
+        "Express",
+        "User Authentication",
+        "Progressive Web Applications (PWAs)",
+        "MERN Stack (MongoDB, Express.js, React.js,Node.js)"
+      ]
+    },
+    {
+      "title": "Quality Assurance",
+      "skill": [
+        "Unit Testing",
+        "Functional Testing",
+        "Linting",
+        "Continuous Integration"
+      ]
+    }
+  ]
+}
