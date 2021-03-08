@@ -20,12 +20,14 @@
     <script>
       $(document).ready(function () {
         $("#home").load("./public/pages/home.html");
-        $("about").load("./public/pages/about.html");
+        $("#about").load("./public/pages/about.html");
+        $("#profile").load("./public/pages/profile.html");
+        $("#skill").load("./public/pages/skill.html");
       });
     </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
       <button
         class="navbar-toggler"
         type="button"
@@ -62,8 +64,20 @@
       </div>
     </nav>
 
-    <div class="home_style" id="home"></div>
-    <div class="about_style" id="about"></div>
+    <div>
+      <div class="home_style" id="home"></div>
+      <div class="about_style" id="about"></div>
+      <div class="profile_skill">
+        <div
+          class="profile_section profile_skill_align profile_style"
+          id="profile"
+        ></div>
+        <div
+          class="skill_section profile_skill_align skill_style"
+          id="skill"
+        ></div>
+      </div>
+    </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="./script.js"></script>

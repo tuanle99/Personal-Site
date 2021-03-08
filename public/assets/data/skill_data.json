@@ -1,3 +1,32 @@
 {
-    "skill_array" : ["Java", "JavaScript", "React.js", "React Native", "Python", "HTML", "jQuery", "Bootstrap", "Git", "Node.js", "TypeScript"]
+    "skill_array" : [
+        {
+            "name" : "Java",
+            "progress" : "75"
+        },
+        {
+            "name" : "React.js",
+            "progress" : "50"
+        },
+        {
+            "name" : "React Native",
+            "progress" : "25"
+        },
+        {
+            "name" : "Python",
+            "progress" : "50"
+        },
+        {
+            "name" : "JS/CSS/HTML",
+            "progress" : "90"
+        },
+        {
+            "name" : "jQuery",
+            "progress" : "75"
+        },
+        {
+            "name" : "TypeScript",
+            "progress" : "50"
+        }
+    ]
 }
