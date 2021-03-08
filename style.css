@@ -23,12 +23,12 @@
 }
 .home_style {
   width: 100%;
-  height: 800px;
+  height: 880px;
   justify-content: center;
   display: flex;
 }
 .home_header {
-  margin-top: 180px;
+  margin-top: 230px;
 }
 .home_text {
   color: white;
