@@ -83,10 +83,11 @@
   width: 130px;
   float: left;
 }
-
+.profile_skill_height {
+  height: 600px;
+}
 .profile_skill {
   text-align: center;
-  height: 500px;
   background-color: lightblue;
 }
 
@@ -114,6 +115,13 @@
   padding: 10px;
 }
 
+.resume_style {
+  height: 1000px;
+  background-color: lightcoral;
+  text-align: center;
+  padding-top: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .home_style {
     width: 100%;
@@ -121,6 +129,9 @@
   }
   .home_header {
     margin-top: 200px;
+  }
+  .profile_skill_height {
+    height: 1000px;
   }
   .row {
     padding-left: 25px;
