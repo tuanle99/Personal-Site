@@ -15,6 +15,14 @@ $(document).ready(function () {
       "slow"
     );
   });
+  $("#Resume").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: $("#resume").offset().top,
+      },
+      "slow"
+    );
+  });
 
   $.getJSON("public/assets/data/skill_data.json", function (data) {
     var skill_array = data.skill_array;
