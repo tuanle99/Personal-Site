@@ -129,6 +129,8 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .row {
+  }
   .home_style {
     width: 100%;
     height: 820px;
