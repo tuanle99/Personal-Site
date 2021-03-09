@@ -1,28 +1,36 @@
 $(document).ready(function () {
-  $("#Home").click(function () {
+  window.setTimeout(1000);
+
+  const nav_select = localStorage.getItem("nav-select");
+  if (nav_select != null) {
+    navToDiv(nav_select);
+  }
+  $("#nav-home").click(function () {
+    navToDiv(this.id);
+  });
+  $("#nav-about").click(function () {
+    navToDiv(this.id);
+  });
+  $("#nav-resume").click(function () {
+    navToDiv(this.id);
+  });
+
+  function navToDiv(id) {
+    $(`#${id}`).attr("style", "color:orange");
+    $(`.nav-link`)
+      .not($(`#${id}`))
+      .attr("style", "color:white");
+
+    localStorage.setItem("nav-select", id);
+
+    id = id.replace("nav-", "").toLowerCase();
     $("html,body").animate(
       {
-        scrollTop: $("#home").offset().top,
+        scrollTop: $(`#${id}`).offset().top,
       },
       "slow"
     );
-  });
-  $("#About").click(function () {
-    $("html,body").animate(
-      {
-        scrollTop: $("#about").offset().top,
-      },
-      "slow"
-    );
-  });
-  $("#Resume").click(function () {
-    $("html,body").animate(
-      {
-        scrollTop: $("#resume").offset().top,
-      },
-      "slow"
-    );
-  });
+  }
 
   $.getJSON("public/assets/data/skill_data.json", function (data) {
     var skill_array = data.skill_array;
