@@ -1,3 +1,6 @@
+.text_primary {
+  color: #66fcf1;
+}
 .hover {
   cursor: pointer;
   color: white;
@@ -43,7 +46,7 @@
   height: 500px;
 }
 .about_background {
-  background-color: lightblue;
+  background-color: #1f2833;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -75,7 +78,7 @@
 
 .profile_img {
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid #66fcf1;
 }
 
 .content-intro img {
@@ -88,7 +91,7 @@
 }
 .profile_skill {
   text-align: center;
-  background-color: lightblue;
+  background-color: #1f2833;
 }
 
 .profile_skill_align {
@@ -116,8 +119,8 @@
 }
 
 .resume_style {
-  height: 1000px;
-  background-color: lightcoral;
+  height: 1200px;
+  background-color: white;
   text-align: center;
   padding-top: 50px;
 }
@@ -161,8 +164,10 @@
   }
   .profile_style {
     width: 90%;
+    margin: 0px;
   }
   .skill_style {
     width: 90%;
+    margin: 0px;
   }
 }
