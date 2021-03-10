@@ -86,12 +86,13 @@ async function init() {
       }
       return 0;
     });
-    for (var i = 0; i < skill_array.length; i++) {
+    for (var i = 0; i < 7; i++) {
       var container = $("<div>");
       var div = $("<div>").attr("class", "progress");
+      div.attr("style", "height: 5px;");
       var p = $("<p>").text(skill_array[i].name);
       div.append(
-        `<div class="progress-bar" role="progressbar" style="width: ${skill_array[i].progress}%;" aria-valuemin="0" aria-valuemax="100">${skill_array[i].progress}%</div>`
+        `<div class="progress-bar" role="progressbar" style="width: ${skill_array[i].progress}%; background-color: gray;" aria-valuemin="0" aria-valuemax="100"></div>`
       );
       container.append(p, div);
       $("#technical_skill").append(container);
