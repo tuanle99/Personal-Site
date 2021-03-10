@@ -1,5 +1,6 @@
 body {
   position: relative;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a:-webkit-any-link {
@@ -20,6 +21,9 @@ a:-webkit-any-link {
 }
 .text_secondary2 {
   color: white;
+}
+.resume_text {
+  color: #1496bb;
 }
 
 .hover {

@@ -1,10 +1,28 @@
 {
     "project": [
         {
-        "title": "Random-Recipe-Generator",
-        "git_link": "https://github.com/dboivert13/Random-Recipe-Generator",
-        "site_link": "https://dboivert13.github.io/Random-Recipe-Generator/",
-        "description": "Giving a list of ingredients that the user can filter through to find the perfect recipe, after selecting which ingredients the user want to include, this will generate an api call that will return a list of the most relevant recipes, the user can also save the recipe generated which they can later return to. The user also have the option to search for the 5 nearest grocery store to their location."
+        "title": "Note Taker",
+        "link": "https://bootcamp-homework-note-taker.herokuapp.com/",
+        "description": "Note Taker",
+        "image": "public/assets/Images/Note_Taker.gif"
+        },
+        {
+        "title": "Weather Channel",
+        "link": "https://tuanle99.github.io/Weather-Dashboard/",
+        "description": "Weather Channel",
+        "image": "public/assets/Images/app.PNG"
+        },
+        {
+        "title": "Work Scheduler",
+        "link": "https://tuanle99.github.io/Work_Day_Scheduler/",
+        "description": "Work Scheduler",
+        "image": "public/assets/Images/schedule1.PNG"
+        },
+        {
+        "title": "Team Profile Generator",
+        "link": "https://github.com/tuanle99/Team-Profile-Generator",
+        "description": "Team Profile Generator",
+        "image": "public/assets/Images/Team_List.PNG"
         }
     ]
 }
