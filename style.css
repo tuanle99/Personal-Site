@@ -23,7 +23,7 @@ a:-webkit-any-link {
   color: white;
 }
 .resume_text {
-  color: #1496bb;
+  color: #1287a8;
 }
 
 .hover {
@@ -187,6 +187,12 @@ ul.nav a:hover {
   margin-left: 30px;
 }
 
+.down_icon {
+  color: white;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
   .home_style {
     width: 100%;
@@ -221,9 +227,7 @@ ul.nav a:hover {
   .profile_skill_align {
     vertical-align: top;
   }
-  .profile_skill_section {
-    text-align: center;
-  }
+
   .profile_style {
     width: 90%;
     margin: 0px;
@@ -252,5 +256,9 @@ ul.nav a:hover {
 
   .description_style {
     text-align: center;
+  }
+
+  .down_icon {
+    margin-top: 50px;
   }
 }
