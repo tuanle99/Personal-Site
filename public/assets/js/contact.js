@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $(".down_icon").click(function () {
-    navToDiv("nav-about");
+  $(".up_icon").click(function () {
+    navToDiv("nav-home");
   });
 });
 

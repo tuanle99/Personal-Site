@@ -192,6 +192,11 @@ ul.nav a:hover {
   margin-top: 100px;
   cursor: pointer;
 }
+.up_icon {
+  color: white;
+  margin-top: 100px;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 600px) {
   .home_style {
