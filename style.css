@@ -150,7 +150,8 @@ ul.nav a:hover {
 .contact_background {
   text-align: center;
   padding-top: 50px;
-  height: 500px;
+  flex: 1;
+  padding-bottom: 100px;
 }
 
 .horizontal {
