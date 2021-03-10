@@ -182,10 +182,13 @@ ul.nav a:hover {
 @media only screen and (max-width: 600px) {
   .home_style {
     width: 100%;
-    height: 820px;
+    height: 800px;
   }
   .home_header {
-    margin-top: 200px;
+    margin-top: 220px;
+  }
+  .home_content {
+    margin-top: 250px;
   }
   .profile_skill_height {
     height: 1000px;
