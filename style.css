@@ -210,7 +210,7 @@ ul.nav a:hover {
     margin-top: 300px;
   }
   .profile_skill_height {
-    height: 1000px;
+    height: 1200px;
   }
   .row {
     padding-left: 25px;
@@ -231,6 +231,10 @@ ul.nav a:hover {
   }
   .profile_skill_align {
     vertical-align: top;
+  }
+
+  .profile_skill_section {
+    padding-bottom: 100px;
   }
 
   .profile_style {
