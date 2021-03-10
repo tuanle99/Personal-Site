@@ -182,7 +182,7 @@ ul.nav a:hover {
 @media only screen and (max-width: 600px) {
   .home_style {
     width: 100%;
-    height: 800px;
+    height: 750px;
   }
   .home_header {
     margin-top: 220px;
