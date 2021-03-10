@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .background_primary {
   background-color: #1f2833;
 }

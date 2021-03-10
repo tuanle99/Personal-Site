@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tuan Le</title>
+    <title>Tuan's Personal Website</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link
       rel="stylesheet"
@@ -30,14 +30,14 @@
     </script>
     <script src="./script.js"></script>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
+  <body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
+        data-target="#navbarContent"
+        aria-controls="navbarContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
         id="bar_button"
@@ -46,7 +46,7 @@
       </button>
       <div
         class="navbar-collapse collapse w-100 order-3 dual-collapse2"
-        id="navbarSupportedContent"
+        id="navbarContent"
       >
         <ul class="nav navbar-nav mx-auto">
           <li class="nav-item">
@@ -68,39 +68,37 @@
       </div>
     </nav>
 
-    <div>
-      <div class="home_style" id="home"></div>
-      <div class="about_style" id="about"></div>
-      <div class="profile_skill profile_skill_height background_primary">
-        <div
-          class="profile_section profile_skill_align profile_style"
-          id="profile"
-        ></div>
-        <div
-          class="skill_section profile_skill_align skill_style"
-          id="skill"
-        ></div>
-      </div>
-      <div class="resume_style" id="resume">
-        <h3 style="color: #ff0000">Resume</h3>
-        <h2>Here are my work experiences and education.</h2>
-        <div class="">
-          <h2 style="padding: 50px 0px 20px 0px; color: #ff0000">
-            Work Experience
-          </h2>
-          <div id="experiences"></div>
-        </div>
-        <div class="education_style">
-          <h2 style="padding: 50px 0px 20px 0px; color: #ff0000">Education</h2>
-          <div id="education"></div>
-        </div>
-      </div>
+    <section class="home_style" id="home"></section>
+    <section class="about_style" id="about"></section>
+    <section class="profile_skill profile_skill_height background_primary">
       <div
-        class="project_style background_primary text_primary"
-        id="project"
+        class="profile_section profile_skill_align profile_style"
+        id="profile"
       ></div>
-      <div class="contact_style" id="contact"></div>
-    </div>
+      <div
+        class="skill_section profile_skill_align skill_style"
+        id="skill"
+      ></div>
+    </section>
+    <section class="resume_style" id="resume">
+      <h3 style="color: #ff0000">Resume</h3>
+      <h2>Here are my work experiences and education.</h2>
+      <div class="">
+        <h2 style="padding: 50px 0px 20px 0px; color: #ff0000">
+          Work Experience
+        </h2>
+        <div id="experiences"></div>
+      </div>
+      <div class="education_style">
+        <h2 style="padding: 50px 0px 20px 0px; color: #ff0000">Education</h2>
+        <div id="education"></div>
+      </div>
+    </section>
+    <section
+      class="project_style background_primary text_primary"
+      id="project"
+    ></section>
+    <section class="contact_style" id="contact"></section>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="public/assets/js/experiences.js"></script>
