@@ -1,0 +1,22 @@
+.profile_text {
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+  margin-left: 160px;
+}
+
+.profile_skill_height {
+  height: 600px;
+}
+.profile_skill {
+  text-align: center;
+}
+
+.profile_skill_align {
+  display: inline-block;
+  vertical-align: top;
+}
+.profile_style {
+  width: 30%;
+  margin-right: 20px;
+}

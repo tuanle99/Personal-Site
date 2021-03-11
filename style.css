@@ -14,7 +14,6 @@ a:-webkit-any-link {
   color: #66fcf1 !important;
 }
 
-/* rgba(255,255,255,.5) */
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: rgba(255, 255, 255, 0.5);
@@ -47,35 +46,6 @@ a:-webkit-any-link {
   margin-right: 30px;
 }
 
-.profile_text {
-  text-align: left;
-  line-height: 30px;
-  font-size: 20px;
-  margin-left: 160px;
-}
-
-.section-intro {
-  max-width: 700px;
-  text-align: center;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-.profile_skill_height {
-  height: 600px;
-}
-.profile_skill {
-  text-align: center;
-}
-
-.profile_skill_align {
-  display: inline-block;
-  vertical-align: top;
-}
-.profile_style {
-  width: 30%;
-  margin-right: 20px;
-}
 .skill_style {
   width: 30%;
   margin-left: 20px;
@@ -117,12 +87,6 @@ a:-webkit-any-link {
   padding-bottom: 100px;
 }
 
-.horizontal {
-  display: inline-block;
-  vertical-align: top;
-  width: 300px;
-}
-
 .resume_left {
   display: inline-block;
   vertical-align: top;
@@ -138,20 +102,12 @@ a:-webkit-any-link {
   margin-left: 30px;
 }
 
-.up_icon {
-  color: white;
-  margin-top: 100px;
-  cursor: pointer;
-}
 .list li {
   display: inline;
 }
 .list {
   justify-content: center;
   flex-direction: row !important;
-}
-.padding-top {
-  padding-top: 20px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -182,11 +138,6 @@ a:-webkit-any-link {
     width: 90%;
     margin: 0px;
   }
-  .horizontal {
-    display: inline;
-    vertical-align: top;
-    width: 20%;
-  }
 
   .resume_left {
     display: inline;
@@ -202,9 +153,5 @@ a:-webkit-any-link {
 
   .description_style {
     text-align: center;
-  }
-
-  .contact_background {
-    padding-top: 150px;
   }
 }

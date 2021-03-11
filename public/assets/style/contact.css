@@ -1,0 +1,23 @@
+.padding-top {
+  padding-top: 20px;
+}
+.up_icon {
+  color: white;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.horizontal {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+@media only screen and (max-width: 700px) {
+  .contact_background {
+    padding-top: 150px;
+  }
+  .horizontal {
+    display: inline;
+    vertical-align: top;
+    width: 20%;
+  }
+}
