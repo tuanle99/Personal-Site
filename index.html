@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tuan's Personal Website</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
       integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
       crossorigin="anonymous"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script>
       $(document).ready(function () {
@@ -30,42 +33,25 @@
     </script>
     <script src="./script.js"></script>
   </head>
-  <body data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarContent"
-        aria-controls="navbarContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        id="bar_button"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="navbar-collapse collapse w-100 order-3 dual-collapse2"
-        id="navbarContent"
-      >
-        <ul class="nav navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link hover" id="nav-home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover" id="nav-about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover" id="nav-resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover" id="nav-project">Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover" id="nav-contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav navbar-nav mx-auto list">
+        <li class="nav-item">
+          <a class="nav-link hover" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover" href="#project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover" href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
 
     <section class="home_style" id="home"></section>
@@ -102,7 +88,7 @@
     ></section>
     <section class="contact_style" id="contact"></section>
 
+    <script src="public\assets\js\home.js"></script>
     <script src="public\assets\js\experience.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>

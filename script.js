@@ -1,32 +1,12 @@
-function navToDiv(id) {
-  $(`#${id}`).attr("style", "color:#66fcf1");
-  $(`.nav-link`)
-    .not($(`#${id}`))
-    .attr("style", "color:white");
-
-  id = id.replace("nav-", "").toLowerCase();
-  $("html,body").animate(
-    {
-      scrollTop: $(`#${id}`).offset().top,
-    },
-    "slow"
-  );
-}
-
 $(document).ready(function () {
-  $("#nav-home").click(function () {
-    navToDiv(this.id);
-  });
-  $("#nav-about").click(function () {
-    navToDiv(this.id);
-  });
-  $("#nav-resume").click(function () {
-    navToDiv(this.id);
-  });
-  $("#nav-project").click(function () {
-    navToDiv(this.id);
-  });
-  $("#nav-contact").click(function () {
-    navToDiv(this.id);
+  $(document).on("click", 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $("html, body").animate(
+      {
+        scrollTop: $($.attr(this, "href")).offset().top,
+      },
+      500
+    );
   });
 });
