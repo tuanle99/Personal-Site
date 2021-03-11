@@ -1,5 +1,7 @@
 .footer_background {
-  background-color: gray;
+  background-color: #151515;
   font-size: small;
   text-align: center;
+  color: white;
+  padding-bottom: 50px;
 }

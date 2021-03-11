@@ -47,13 +47,6 @@ a:-webkit-any-link {
   padding-bottom: 50px;
 }
 
-.contact_background {
-  text-align: center;
-  padding-top: 50px;
-  flex: 1;
-  padding-bottom: 100px;
-}
-
 .list li {
   display: inline;
 }
