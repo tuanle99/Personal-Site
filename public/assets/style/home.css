@@ -28,6 +28,11 @@
   color: white;
   margin-left: 10px;
 }
+.down_icon {
+  color: white;
+  margin-top: 100px;
+  cursor: pointer;
+}
 @media only screen and (max-width: 700px) {
   .home_style {
     width: 100%;
@@ -38,5 +43,8 @@
   }
   .home_content {
     margin-top: 300px;
+  }
+  .down_icon {
+    margin-top: 50px;
   }
 }

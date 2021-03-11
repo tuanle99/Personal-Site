@@ -47,45 +47,19 @@ a:-webkit-any-link {
   margin-right: 30px;
 }
 
-.about_style {
-  flex: 1;
-}
-.about_background {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.about_text {
-  color: black;
-}
 .profile_text {
   text-align: left;
   line-height: 30px;
   font-size: 20px;
   margin-left: 160px;
 }
-.about_me {
-  margin: 50px 0px 50px 0px;
-}
+
 .section-intro {
   max-width: 700px;
   text-align: center;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.profile_img {
-  border-radius: 50%;
-  border: 1px solid #66fcf1;
-}
-
-.content-intro img {
-  flex: 1;
-  width: 130px;
-  float: left;
 }
 .profile_skill_height {
   height: 600px;
@@ -164,11 +138,6 @@ a:-webkit-any-link {
   margin-left: 30px;
 }
 
-.down_icon {
-  color: white;
-  margin-top: 100px;
-  cursor: pointer;
-}
 .up_icon {
   color: white;
   margin-top: 100px;
@@ -196,19 +165,7 @@ a:-webkit-any-link {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .content-intro img {
-    height: 110px;
-    width: 110px;
-    float: none;
-    display: inline-block;
-  }
-  .profile_text {
-    text-align: center;
-    line-height: 30px;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 0px;
-  }
+
   .profile_skill_align {
     vertical-align: top;
   }
@@ -247,9 +204,6 @@ a:-webkit-any-link {
     text-align: center;
   }
 
-  .down_icon {
-    margin-top: 50px;
-  }
   .contact_background {
     padding-top: 150px;
   }
