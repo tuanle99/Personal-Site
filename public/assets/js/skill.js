@@ -17,6 +17,7 @@ function render_skill_list() {
       var div = $("<div>").attr("class", "progress");
       div.attr("style", "height: 5px;");
       var p = $("<p>").text(skill_array[i].name);
+      p.attr("class", "skill_padding");
       div.append(
         `<div class="progress-bar" role="progressbar" style="width: ${skill_array[i].progress}%; background-color: gray;" aria-valuemin="0" aria-valuemax="100"></div>`
       );

@@ -9,6 +9,10 @@
   border: 1px solid black;
   padding: 10px;
 }
+.skill_padding {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
 @media only screen and (max-width: 700px) {
   .skill_style {
     width: 90%;
