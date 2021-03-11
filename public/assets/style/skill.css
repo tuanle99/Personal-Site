@@ -1,0 +1,17 @@
+.skill_style {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.skill_container {
+  overflow-y: scroll;
+  height: 300px;
+  border: 1px solid black;
+  padding: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .skill_style {
+    width: 90%;
+    margin: 0px;
+  }
+}

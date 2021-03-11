@@ -34,9 +34,6 @@ a:-webkit-any-link {
 .text_secondary2 {
   color: white;
 }
-.resume_text {
-  color: #1287a8;
-}
 
 .hover {
   cursor: pointer;
@@ -47,36 +44,7 @@ a:-webkit-any-link {
 }
 .profile_skill_section {
   text-align: left;
-}
-
-.skill_style {
-  width: 30%;
-  margin-left: 20px;
-}
-
-.skill_container {
-  overflow-y: scroll;
-  height: 300px;
-  border: 1px solid black;
-  padding: 10px;
-}
-
-.resume_style {
-  flex: 1;
-  background-color: white;
-  text-align: center;
-  padding-top: 150px;
-}
-
-.project_style {
-  flex: 1;
-  text-align: center;
-  padding-top: 120px;
   padding-bottom: 50px;
-}
-
-.project_card {
-  margin: 10px;
 }
 
 .contact_background {
@@ -84,21 +52,6 @@ a:-webkit-any-link {
   padding-top: 50px;
   flex: 1;
   padding-bottom: 100px;
-}
-
-.resume_left {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  text-align: right;
-}
-
-.resume_right {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
-  text-align: left;
-  margin-left: 30px;
 }
 
 .list li {
@@ -125,26 +78,5 @@ a:-webkit-any-link {
   .row {
     padding-left: 25px;
     padding-right: 25px;
-  }
-
-  .skill_style {
-    width: 90%;
-    margin: 0px;
-  }
-
-  .resume_left {
-    display: inline;
-    margin: 0px;
-    text-align: center;
-  }
-
-  .resume_right {
-    display: inline;
-    margin: 0px;
-    text-align: center;
-  }
-
-  .description_style {
-    text-align: center;
   }
 }
