@@ -1,3 +1,9 @@
+.profile_text {
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+  margin-left: 160px;
+}
 .about_style {
   flex: 1;
 }
