@@ -1,28 +1,44 @@
 {
-    "project": [
-        {
-        "title": "Note Taker",
-        "link": "https://bootcamp-homework-note-taker.herokuapp.com/",
-        "description": "Note Taker",
-        "image": "public/assets/Images/Note_Taker.gif"
-        },
-        {
-        "title": "Weather Channel",
-        "link": "https://tuanle99.github.io/Weather-Dashboard/",
-        "description": "Weather Channel",
-        "image": "public/assets/Images/app.PNG"
-        },
-        {
-        "title": "Work Scheduler",
-        "link": "https://tuanle99.github.io/Work_Day_Scheduler/",
-        "description": "Work Scheduler",
-        "image": "public/assets/Images/schedule1.PNG"
-        },
-        {
-        "title": "Team Profile Generator",
-        "link": "https://github.com/tuanle99/Team-Profile-Generator",
-        "description": "Team Profile Generator",
-        "image": "public/assets/Images/Team_List.PNG"
-        }
-    ]
+  "project": [
+    {
+      "id": 0,
+      "title": "Note Taker",
+      "link": "https://bootcamp-homework-note-taker.herokuapp.com/",
+      "description": "Note Taker",
+      "image": "public/assets/Images/Note_Taker.gif",
+      "git": "https://github.com/tuanle99/Note-Taker"
+    },
+    {
+      "id": 1,
+      "title": "Weather Channel",
+      "link": "https://tuanle99.github.io/Weather-Dashboard/",
+      "description": "Weather Channel",
+      "image": "public/assets/Images/app.PNG",
+      "git": "https://github.com/tuanle99/Weather-Dashboard"
+    },
+    {
+      "id": 2,
+      "title": "Work Scheduler",
+      "link": "https://tuanle99.github.io/Work_Day_Scheduler/",
+      "description": "Work Scheduler",
+      "image": "public/assets/Images/schedule1.PNG",
+      "git": "https://github.com/tuanle99/Work_Day_Scheduler"
+    },
+    {
+      "id": 3,
+      "title": "Team Profile Generator",
+      "link": "",
+      "description": "Team Profile Generator",
+      "image": "public/assets/Images/Team_List.PNG",
+      "git": "https://github.com/tuanle99/Team-Profile-Generator"
+    },
+    {
+      "id": 3,
+      "title": "Family Manager",
+      "link": "https://family-manager-application.herokuapp.com/api/users/login",
+      "description": "Manages Family Task",
+      "image": "public/assets/Images/familymanager.PNG",
+      "git": "https://github.com/tuanle99/Project-2"
+    }
+  ]
 }
