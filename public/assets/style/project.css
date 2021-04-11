@@ -1,10 +1,19 @@
 .project_style {
   flex: 1;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .project_card {
   margin: 10px;
+}
+
+.carousel-indicators li {
+  /* background-color: #999; */
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
 }

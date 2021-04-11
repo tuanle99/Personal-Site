@@ -27,13 +27,13 @@
     {
       "id": 3,
       "title": "Team Profile Generator",
-      "link": "",
+      "link": "/",
       "description": "Team Profile Generator",
       "image": "public/assets/Images/Team_List.PNG",
       "git": "https://github.com/tuanle99/Team-Profile-Generator"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Family Manager",
       "link": "https://family-manager-application.herokuapp.com/api/users/login",
       "description": "Manages Family Task",
