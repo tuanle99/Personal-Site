@@ -18,7 +18,7 @@ function get_project_data() {
       button.attr("class", "btn background_primary text_primary");
       button.text(e.title);
 
-      var a_git = $("<a>").attr("href", `${e.link}`);
+      var a_git = $("<a>").attr("href", `${e.git}`);
       a.attr("target", "_blank");
       a_git.attr("style", "display:block");
       var button_git = $("<button>").attr("type", "button");
