@@ -6,11 +6,11 @@
         },
         {
             "name" : "React.js",
-            "progress" : "50"
+            "progress" : "75"
         },
         {
             "name" : "React Native",
-            "progress" : "25"
+            "progress" : "60"
         },
         {
             "name" : "Python",
@@ -22,7 +22,7 @@
         },
         {
             "name" : "jQuery",
-            "progress" : "75"
+            "progress" : "70"
         },
         {
             "name" : "TypeScript",
